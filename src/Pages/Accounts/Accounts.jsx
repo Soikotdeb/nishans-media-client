@@ -24,7 +24,7 @@ const Accounts = () => {
     return (
         <div className={`bg-[#F7F3F5] flex flex-col md:flex-row justify-center items-center h-screen gap-5 p-4 font-sans ${animate ? 'login-form active' : 'login-form'}`}>
             <div className="lg:w-1/2 w-full">
-                <h2 className="text-4xl mb-6 font-semibold">Login</h2>
+                <h2 className="text-4xl mb-6 font-semibold">Login </h2>
                 <form onSubmit={handleSubmit(handleLogin)} className="space-y-4 border rounded-lg p-4 shadow-lg">
                     <div>
                         <label htmlFor="email" className="block text-gray-600 font-semibold">Username or email address <span className="text-red-500">*</span></label>
