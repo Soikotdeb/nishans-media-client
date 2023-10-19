@@ -1,8 +1,11 @@
+import Mission from "../Mission/Mission";
+import Team from "../Team/Team";
 
 const AboutUsPage = () => {
     return (
         <div>
-            <h2>About us</h2>
+            <Mission></Mission>
+            <Team></Team>
         </div>
     );
 };
