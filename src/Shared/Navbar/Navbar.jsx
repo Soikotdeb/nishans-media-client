@@ -103,7 +103,7 @@ export default function NavbarTopBarPreview() {
                                 </Link>
                             </li>
                             <li role="none" className="flex items-stretch">
-                                <Link to={'/about'}
+                                <Link to='/about'
                                     role="menuitem"
                                     aria-haspopup="false"
                                     className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-[#fe0800] focus:text-[#fe0800] focus:outline-none focus-visible:outline-none lg:px-8"
