@@ -1,8 +1,14 @@
+import { AiFillPieChart} from 'react-icons/ai';
+// import { BiPaperPlane } from 'react-icons/bi';
+// import {FaCertificate } from 'react-icons/fa';
+
+
 const Mission = () => {
     return (
         <div className="bg-black text-white">
             <div className="flex flex-col md:flex-row items-center justify-center p-5 md:p-20">
                 <div className="p-5 md:p-10 text-center md:text-start w-full md:w-1/3">
+                    <AiFillPieChart className='text-white text-3xl'/>
                     <h2 className="text-2xl md:text-3xl mb-4">Vision</h2>
                     <p>To become the most trusted and reliable partner for clients in the graphic design and printing industry.</p>
                 </div>

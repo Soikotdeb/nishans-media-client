@@ -1,3 +1,4 @@
+import Faq from "../Faq/Faq";
 import Mission from "../Mission/Mission";
 import Team from "../Team/Team";
 import Testimonials from "../Testimonials/Testimonials";
@@ -9,6 +10,7 @@ const AboutUsPage = () => {
             <Mission></Mission>
             <Team></Team>
             <Testimonials></Testimonials>
+            <Faq></Faq>
         </div>
     );
 };

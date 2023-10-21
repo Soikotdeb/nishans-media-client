@@ -4,10 +4,10 @@ const Testimonials = () => {
     return (
         <div className="bg-[#2D2D2D]">
             <h2 className='text-white font-semibold text-center pt-20 text-3xl'>Our Happy Clients!</h2>
-            <div className="w-11/12 mx-auto grid grid-cols-3 p-20 gap-10">
+            <div className="w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-5 sm:p-10 lg:p-20 gap-5 sm:gap-8">
                 <div className="overflow-hidden rounded bg-black text-white">
                     <div className="p-6 border-b">
-                        <BiSolidQuoteLeft className='text-red-600 text-3xl' />
+                        <BiSolidQuoteLeft className='text-[#FF0800] text-3xl' />
                         <p>
                             Nishan’s Media was a pleasure to work with. From the start of the project, they were responsive and attentive to our needs and provided us with quality work that exceeded our expectations. They are highly professional and knowledgeable, and I highly recommend them to anyone in need of printing services.”
                         </p>
@@ -38,7 +38,7 @@ const Testimonials = () => {
                 </div>
                 <div className="overflow-hidden rounded bg-black text-white">
                     <div className="p-6 border-b">
-                        <BiSolidQuoteLeft className='text-red-600 text-3xl' />
+                        <BiSolidQuoteLeft className='text-[#FF0800] text-3xl' />
                         <p>Nishan’s Digital Sign & Printing provided me with excellent service and high quality products. I was very pleased with the outcome and would highly recommend their services to anyone in need of printing or design work. They were very helpful and accommodating, and their attention to detail was impressive.”
                         </p>
                     </div>
@@ -68,7 +68,7 @@ const Testimonials = () => {
                 </div>
                 <div className="overflow-hidden rounded bg-black text-white">
                     <div className="p-6 border-b">
-                        <BiSolidQuoteLeft className='text-red-600 text-3xl' />
+                        <BiSolidQuoteLeft className='text-[#FF0800] text-3xl' />
                         <p>I have been working with Nishan’s Media for many years now and their digital printing services have always been outstanding. They offer quick turnaround times and great customer service. The quality of their work is always top-notch and their prices are very reasonable. I highly recommend them for any digital printing needs.</p>
                     </div>
                     <div className="p-6">
