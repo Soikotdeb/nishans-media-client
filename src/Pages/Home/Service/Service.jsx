@@ -7,9 +7,9 @@ import { CgWebsite } from 'react-icons/cg';
 
 const Service = () => {
     return (
-        <div className="p-20">
+        <div className="p-5 md:p-20">
             <SectionTitle></SectionTitle>
-            <div className="grid grid-cols-4 gap-3 mt-10">
+            <div className="grid md:grid-cols-4 gap-6 md:gap-3 mt-10">
                 <div className=" p-7 text-center shadow-2xl border-b-4 border-primary">
                     <SiAdobeillustrator className="mx-auto text-5xl text-primary"></SiAdobeillustrator>
                     <div className="space-y-2 mt-3">

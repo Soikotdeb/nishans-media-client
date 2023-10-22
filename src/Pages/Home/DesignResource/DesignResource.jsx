@@ -12,9 +12,9 @@ const DesignResource = () => {
             .then(data => setDesignResource(data))
     }, [])
     return (
-        <div className="p-20">
+        <div className="p-5 md:p-20">
             <SectionTitle></SectionTitle>
-            <div className="grid grid-cols-4 gap-3 mt-10">
+            <div className="grid md:grid-cols-4 gap-3 mt-10">
                 {
                     designResource.filter(product => product.category == "design resource").map(product => <ProductCard
                         key={product.id}

@@ -14,9 +14,9 @@ const Products = () => {
     }, [])
 
     return (
-        <div className="p-20">
+        <div className="p-5 md:p-20">
             <SectionTitle></SectionTitle>
-            <div className="mt-12 grid grid-cols-4 gap-3">
+            <div className="mt-12 grid md:grid-cols-4 gap-3">
                 {
                     products.slice(0,8).map(product => <ProductCard
                         key={product.id}
