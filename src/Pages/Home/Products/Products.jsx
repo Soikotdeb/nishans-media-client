@@ -24,6 +24,9 @@ const Products = () => {
                     ></ProductCard>)
                 }
             </div>
+            <div className="mt-16 text-center">
+                <button className=" btn bg-primary text-white font-semibold">More Crests</button>
+            </div>
         </div>
     );
 };
