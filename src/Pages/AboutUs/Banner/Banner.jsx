@@ -1,3 +1,4 @@
+import { BsBehance, BsFacebook, BsGlobe } from "react-icons/bs";
 import nishanImage from "../../../assets/Nishans.png";
 import signature from "../../../assets/signature.png";
 
@@ -5,13 +6,18 @@ import signature from "../../../assets/signature.png";
 const Banner = () => {
     return (
         <div className="w-11/12 mx-auto">
-            <div className="md:flex items-center">
+            <div className="md:flex items-center justify-center">
                 <div className="w-full md:w-1/3 md:p-20 p-10">
                     <img className="" src={nishanImage} alt="" />
-                    <div className="mt-20">
+                    <div className="mt-10 px-5">
                         <img src={signature} alt="" />
                         <h3 className="text-xl font-bold">Wasim Ahmed Nishan</h3>
                         <p>CEO, Nishan Media</p>
+                    </div>
+                    <div className="flex gap-5 px-10 mt-5">
+                        <a href="https://www.facebook.com/wasimnishans/"><BsFacebook className='text-primary text-3xl'/></a>
+                        <a href="https://www.behance.net/nishansmedia"><BsBehance className='text-primary text-3xl'/></a>
+                        <a href="http://www.creationit.info/"><BsGlobe className='text-primary text-3xl'/></a>
                     </div>
                 </div>
                 <div className="p-8 relative md:w-2/3 w-full">
