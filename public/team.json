@@ -1,0 +1,27 @@
+[
+    {
+        "image": "https://www.nishansmedia.com/wp-content/uploads/2023/04/Arpa.jpg",
+        "name": "Arpa Paul",
+        "expertise": "Web Design Expert"
+    },
+    {
+        "image": "https://www.nishansmedia.com/wp-content/uploads/2023/04/Rubel-Ahmed-1.jpg",
+        "name": "Rubel Ahmed",
+        "expertise": "Digital Printer Operator"
+    },
+    {
+        "image": "https://www.nishansmedia.com/wp-content/uploads/2023/04/Abdulla-Khan-1.jpg",
+        "name": "Abdulla Khan",
+        "expertise": "Jr. Graphic Designer"
+    },
+    {
+        "image": "https://www.nishansmedia.com/wp-content/uploads/2023/06/saif-.jpg",
+        "name": "Saif Ahmed Chowdhury",
+        "expertise": "Chief Graphic Designer"
+    },
+    {
+        "image": "https://www.nishansmedia.com/wp-content/uploads/2023/06/yakub.jpg",
+        "name": "Yakub Ali",
+        "expertise": "Computer Operator"
+    }
+]
