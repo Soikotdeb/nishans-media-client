@@ -4,6 +4,17 @@ import { Link } from "react-router-dom"
 export default function NavbarTopBarPreview() {
     const [isToggleOpen, setIsToggleOpen] = useState(false)
 
+    const Navbar = (props) => {
+        return (
+            <div>
+                Navbar!
+                <ul>
+        <li><Link to="/accounts">Accounts</Link></li>
+      </ul>
+            </div>
+        );
+    };
+
     return (
         <>
 
@@ -110,6 +121,16 @@ export default function NavbarTopBarPreview() {
                                     href="javascript:void(0)"
                                 >
                                     <span>About</span>
+                                </Link>
+                            </li>
+                            <li role="none" className="flex items-stretch">
+                                <Link to='/accounts'
+                                    role="menuitem"
+                                    aria-haspopup="false"
+                                    className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-[#fe0800] focus:text-[#fe0800] focus:outline-none focus-visible:outline-none lg:px-8"
+                                    href="javascript:void(0)"
+                                >
+                                    <span>Accounts</span>
                                 </Link>
                             </li>
                         </ul>
