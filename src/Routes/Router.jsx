@@ -3,6 +3,7 @@ import Main from "../Layout/Main";
 import AboutUsPage from "../Pages/AboutUs/AboutUsPage/AboutUsPage";
 import Home from "../Pages/Home/Home/Home";
 import Accounts from "../Pages/Accounts/Accounts";
+import ProductSinglePage from "../Pages/ProductSinglePage/ProductSinglePage";
 
 const router = createBrowserRouter([
     {
@@ -18,8 +19,13 @@ const router = createBrowserRouter([
               element: <AboutUsPage></AboutUsPage>
             },
             {
-                path:'accounts',
+                path:'/accounts',
                 element:<Accounts />
+            },
+            {
+                path:'/product/:id',
+                element: <ProductSinglePage />,
+                loader: ({params}) => fetch(`products.json/${params.id}`)
             }
         
         ]
