@@ -8,19 +8,23 @@ const ProductSinglePage = () => {
 
     const { id } = useParams();
 
-    const [singleProduct, setSingleProducts] = useState([]);
+    const [singleProducts, setSingleProducts] = useState();
 
     useEffect(() => {
         fetch("/products.json")
             .then(res => res.json())
-            .then(data => console.log(data.find(item => item.id === id)))
+            .then(data => setSingleProducts(data.find(item => item.id == id)))
     }, [id])
 
-    // console.log(singleProduct);
+    console.log(singleProducts);
 
     return (
         <div>
-            tatatta
+           {
+            singleProducts && (
+                <img src={singleProducts.productImage} alt="" />
+            )
+           }
         </div>
     );
 };

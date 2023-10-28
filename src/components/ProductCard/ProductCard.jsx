@@ -6,8 +6,12 @@ const ProductCard = ({ product }) => {
     const { id, productName, productImage, regularPrice, offerPrice, rating } = product;
     return (
 
-        <Link to={`/product/${id}`} className="card w-72 bg-base-100 shadow-xl">
-            <figure><img className="h-auto w-auto" src={productImage} alt="product" /></figure>
+        <div className="card w-72 bg-base-100 shadow-xl">
+            <figure>
+                <Link to={`/product/${id}`}>
+                    <img className="h-auto w-auto" src={productImage} alt="product" />
+                </Link>
+            </figure>
             <div className="p-4 space-y-1">
                 <h2 className="card-title font-bold">{productName}</h2>
                 {/* <p>{category}</p> */}
@@ -33,7 +37,7 @@ const ProductCard = ({ product }) => {
                     </div>
                 </div>
             </div>
-        </Link>
+        </div>
 
     );
 };
