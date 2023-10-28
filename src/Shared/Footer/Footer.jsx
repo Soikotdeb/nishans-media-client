@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <footer className="w-full text-slate-500">
-        <div className="border-t border-slate-200 bg-slate-100 pt-16 pb-12 text-sm">
+        <div className="border-t border-slate-200 bg-slate-300 pt-16 pb-12 text-sm">
           <div className="container mx-auto px-6">
             <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
               <nav
@@ -154,7 +154,7 @@ const Footer = () => {
           </div>
         </div>
         {/*      <!-- Sub Footer --> */}
-        <div className="border-t border-slate-200 bg-slate-100 py-4 text-sm">
+        <div className="border-t border-slate-200 bg-slate-200 py-4 text-sm">
           <div className="container mx-auto px-6">
             <div className="grid grid-cols-4 items-center gap-6 md:grid-cols-8 lg:grid-cols-12">
               <a
