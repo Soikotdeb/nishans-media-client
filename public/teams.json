@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Arpa Paul",
+        "image": "https://www.nishansmedia.com/wp-content/uploads/2023/04/Arpa.jpg",
+        "expertise": "Web Design Expert",
+        "social_accounts": {
+            "facebook": "https://www.facebook.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "twitter": "https://twitter.com/"
+        },
+        "about": "Arpa Paul is a seasoned Web Design Expert with a proven track record of creating captivating and functional web designs. With years of experience in the field, Arpa brings a wealth of knowledge and creativity to every project. His innovative approach to design and attention to detail have earned him recognition in the industry. Arpa is dedicated to delivering top-notch designs that not only meet clients' expectations but also exceed them. Outside of work, Arpa enjoys exploring the latest trends in web design and staying updated with emerging technologies."
+    },
+    {
+        "id": 2,
+        "name": "Rubel Ahmed",
+        "image": "https://www.nishansmedia.com/wp-content/uploads/2023/04/Rubel-Ahmed-1.jpg",
+        "expertise": "Digital Printer Operator",
+        "social_accounts": {
+            "facebook": "https://www.facebook.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "twitter": "https://twitter.com/"
+        },
+        "about": "Rubel Ahmed is a skilled Digital Printer Operator with a strong background in managing various printing equipment and processes. With a keen eye for detail and a commitment to delivering high-quality results, Rubel has successfully handled numerous printing projects, ensuring precision and efficiency at every step. His expertise in handling cutting-edge digital printing technologies has enabled him to produce exceptional prints that meet and exceed client expectations. Rubel's dedication to perfection and his ability to work efficiently under tight deadlines make him an invaluable asset in the printing industry."
+    },
+    {
+        "id": 3,
+        "name": "Abdulla Khan",
+        "image": "https://www.nishansmedia.com/wp-content/uploads/2023/04/Abdulla-Khan-1.jpg",
+        "expertise": "Jr. Graphic Designer",
+        "social_accounts": {
+            "facebook": "https://www.facebook.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "twitter": "https://twitter.com/"
+        },
+        "about": "Abdulla Khan is a talented Jr. Graphic Designer with a passion for creating visually stunning and impactful designs. With a strong foundation in graphic design principles and a creative mindset, Abdulla brings fresh and innovative ideas to the table. His attention to detail and dedication to producing engaging visual content have contributed to the success of various design projects. Abdulla is adept at utilizing various design software and tools to bring his creative visions to life. His enthusiasm for learning and exploring new design trends positions him as a valuable asset in the world of graphic design."
+    },
+    {
+        "id": 4,
+        "name": "Saif Ahmed Chowdhury",
+        "image": "https://www.nishansmedia.com/wp-content/uploads/2023/06/saif-.jpg",
+        "expertise": "Chief Graphic Designer",
+        "social_accounts": {
+            "facebook": "https://www.facebook.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "twitter": "https://twitter.com/"
+        },
+        "about": "Saif Ahmed Chowdhury is an accomplished Chief Graphic Designer known for his exceptional creativity and expertise in designing impactful visual experiences. With a wealth of experience in the field, Saif has led numerous successful design projects, combining artistic vision with strategic insight. His strong leadership skills and ability to conceptualize and execute innovative design solutions have earned him recognition in the industry. Saif's commitment to excellence and his passion for creating visually appealing and effective designs make him a driving force in the world of graphic design. Outside of work, Saif enjoys exploring new design techniques and mentoring aspiring designers."
+    },
+    {
+        "id": 5,
+        "name": "Yakub Ali",
+        "image": "https://www.nishansmedia.com/wp-content/uploads/2023/06/yakub.jpg",
+        "expertise": "Chief Graphic Designer",
+        "social_accounts": {
+            "facebook": "https://www.facebook.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "twitter": "https://twitter.com/"
+        },
+        "about": "Yakub Ali is a skilled Chief Graphic Designer recognized for his creative vision and expertise in delivering visually stunning and impactful designs. With a comprehensive understanding of design principles and a keen eye for detail, Yakub has successfully led numerous design projects, infusing them with creativity and innovation. His ability to conceptualize and execute designs that resonate with target audiences has earned him accolades in the field. Yakub's dedication to pushing the boundaries of visual storytelling and his commitment to delivering high-quality design solutions make him a respected figure in the world of graphic design. Outside of work, Yakub enjoys exploring new design trends and techniques to continually enhance his craft."
+    }
+]

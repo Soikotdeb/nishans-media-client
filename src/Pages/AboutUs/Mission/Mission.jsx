@@ -1,6 +1,6 @@
 import { AiFillPieChart } from 'react-icons/ai';
 import { BiPaperPlane } from 'react-icons/bi';
-import {FaCertificate } from 'react-icons/fa';
+import { FaCertificate } from 'react-icons/fa';
 
 
 const Mission = () => {
