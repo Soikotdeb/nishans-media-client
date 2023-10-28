@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     const [isToggleOpen, setIsToggleOpen] = useState(false)
 
-
-
 return (
     <>
 
@@ -20,11 +18,10 @@ return (
                 >
                     {/*      <!-- Brand logo --> */}
                     <a
-                        id="WindUI"
-                        aria-label="WindUI logo"
-                        aria-current="page"
+                        id="logo"
+                        aria-label="logo"
                         className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
-                        href="javascript:void(0)"
+                        href="/"
                     >
                         <svg
                             width="300"
@@ -87,20 +84,16 @@ return (
                     >
                         <li role="none" className="flex items-stretch">
                             <Link to={'/'} role="menuitem"
-                                aria-haspopup="false"
-                                className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-[#fe0800] focus:text-[#fe0800] focus:outline-none focus-visible:outline-none lg:px-8"
-                                href="javascript:void(0)">
+                                
+                                className="flex items-center gap-2 py-4  uppercase transition-colors duration-300 hover:text-[#fe0800] focus:text-[#fe0800] focus:outline-none  lg:px-8">
                                 Home
                             </Link>
                         </li>
                         <li role="none" className="flex items-stretch">
                             <Link
-                                to="/products"
+                                to="/products-page"
                                 role="menuitem"
-                                aria-current="page"
-                                aria-haspopup="false"
-                                className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-[#fe0800] focus:text-[#fe0800] focus:outline-none focus-visible:outline-none lg:px-8"
-                                href="javascript:void(0)"
+                                className="flex items-center gap-2 py-4  uppercase transition-colors duration-300 hover:text-[#fe0800] focus:text-[#fe0800] focus:outline-none  lg:px-8"
                             >
                                 <span>Products</span>
                             </Link>
@@ -108,9 +101,7 @@ return (
                         <li role="none" className="flex items-stretch">
                             <Link to='/about'
                                 role="menuitem"
-                                aria-haspopup="false"
-                                className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-[#fe0800] focus:text-[#fe0800] focus:outline-none focus-visible:outline-none lg:px-8"
-                                href="javascript:void(0)"
+                                className="flex items-center gap-2 py-4  uppercase transition-colors duration-300 hover:text-[#fe0800] focus:text-[#fe0800] focus:outline-none  lg:px-8"
                             >
                                 <span>About</span>
                             </Link>
@@ -118,9 +109,8 @@ return (
                         <li role="none" className="flex items-stretch">
                             <Link to='/accounts'
                                 role="menuitem"
-                                aria-haspopup="false"
-                                className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-[#fe0800] focus:text-[#fe0800] focus:outline-none focus-visible:outline-none lg:px-8"
-                                href="javascript:void(0)"
+                                className="flex items-center gap-2 py-4  uppercase transition-colors duration-300 hover:text-[#fe0800] focus:text-[#fe0800] focus:outline-none  lg:px-8"
+                                href="#"
                             >
                                 <span>Accounts</span>
                             </Link>
