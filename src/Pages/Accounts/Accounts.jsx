@@ -24,11 +24,6 @@ const Accounts = () => {
     const handleLogin = (data) => {
         const email = data.email;
         const password = data.password;
-
-        if (!/(?=.*[a-z])/.test(password)) {
-            Swal.fire('Oops', 'Try to use at least one lowercase!', 'error');
-            return;
-        }
         
         signIn(email, password)
             .then((result) => {
@@ -51,7 +46,7 @@ const Accounts = () => {
     }, []);
 // 
     return (
-        <div className={`bg-[#F7F3F5] flex flex-col md:flex-row justify-center items-center h-screen gap-5 p-4 font-sans ${animate ? 'login-form active' : 'login-form'}`}>
+        <div className={`bg-[#F7F3F5] m flex flex-col md:flex-row justify-center items-center gap-5 p-4 font-sans ${animate ? 'login-form active' : 'login-form'}`}>
             <div className="lg:w-1/2 w-full">
                 <h2 className="text-4xl mb-6 font-semibold">Login</h2>
                 <form onSubmit={handleSubmit(handleLogin)} className="space-y-4 border rounded-lg p-4 shadow-lg">
