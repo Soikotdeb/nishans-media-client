@@ -49,7 +49,7 @@ const Accounts = () => {
         // Trigger animation when the component mounts
         setAnimate(true);
     }, []);
-
+// 
     return (
         <div className={`bg-[#F7F3F5] flex flex-col md:flex-row justify-center items-center h-screen gap-5 p-4 font-sans ${animate ? 'login-form active' : 'login-form'}`}>
             <div className="lg:w-1/2 w-full">
